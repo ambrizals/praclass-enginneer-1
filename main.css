@@ -1,0 +1,61 @@
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+body {
+  font-family: Roboto, Impact, Arial;
+  background: #efefef;
+}
+
+.header > h1 {
+  font-size: 42px;
+  font-weight: 500;
+  color: #2b2b2b;
+}
+
+.description {
+  background: white;
+  margin: 12px 0;
+  padding: 6px 12px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+}
+
+.content {
+  font-weight: 300;
+}
+
+img {
+  min-width: 200px;
+  max-width: 600px;
+  min-height: 200px;
+  max-height: 450px;
+}
+
+.comment-section {
+  display: block;
+  float: left;
+}
+
+.input-comment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-comment label {
+  width: 150px;
+}
