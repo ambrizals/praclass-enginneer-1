@@ -1,5 +1,4 @@
-import test from "./test";
-
+console.log("hello");
 class Kendaraan {
   constructor(name, number, buyDate) {
     this.name = name;
