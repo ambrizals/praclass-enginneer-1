@@ -1,4 +1,3 @@
-console.log("hello");
 class Kendaraan {
   constructor(name, number, buyDate) {
     this.name = name;
